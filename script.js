@@ -17,11 +17,11 @@ document.querySelector('#pbtm').addEventListener('click', function (dets) {
     let interval2=setInterval(function(){
   if(time2>0)
   {    time2--;
-    document.querySelector('#pbtm').innerHTML =`<h1>This is a bubble game. Here you have to hit the number shown on the hit option and the score will increase by 10</h1>`;
+    document.querySelector('#pbtm').innerHTML =`<h1>This is a bubble game. Here you have to hit the number shown on the hit option and the score will increase by 10 and the time will be 30 seconds</h1>`;
 
   }else{
     clearInterval(interval2);
-    time=60;
+    time=30;
     timer();
     bubble();
   }
