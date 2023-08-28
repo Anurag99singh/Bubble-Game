@@ -25,15 +25,6 @@ body{
     overflow: hidden;
 
 }
-
- /* #header-heading {
-    text-align: center;
-    font-weight: 700;
-    background-color: #89afaf;
-    height: 25px;
-    color: #ffffff;
-} */
-
 #ptop{
     display: flex;
     align-items: center;
