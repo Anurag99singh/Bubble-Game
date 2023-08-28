@@ -26,12 +26,13 @@ body{
 
 }
 
- #header-heading {
+ /* #header-heading {
     text-align: center;
     font-weight: 700;
     background-color: #89afaf;
-    height: fit-content;
-}
+    height: 25px;
+    color: #ffffff;
+} */
 
 #ptop{
     display: flex;
