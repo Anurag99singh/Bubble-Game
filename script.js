@@ -70,6 +70,7 @@ function timer() {
             document.querySelector('#pbtm').innerHTML = `<h1>Game Over and your score is ${score}🏆</h1>`;
           hit.innerHTML = 'Now take rest 😊';
           btn.style.visibility='visible';  
+          btn.style.transition="  all ease 0.9s";
         }
     }, 1000);
 }
